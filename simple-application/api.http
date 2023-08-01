@@ -1,0 +1,26 @@
+###
+GET {{url}}/api/books
+
+###
+
+POST {{url}}/api/books
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Book One",
+  "author": "James Bon"
+}
+
+###
+PUT {{url}}/api/books/2
+Content-Type: application/json
+Accept: application/json
+
+
+{
+  "title": "Book Ones",
+  "author": "James Bons"
+}
+
+###
